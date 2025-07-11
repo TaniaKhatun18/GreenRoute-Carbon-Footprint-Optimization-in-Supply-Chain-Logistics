@@ -71,6 +71,7 @@ GreenRoute is a Python‑based application designed to estimate and optimize car
 ├── Final\_Background.jpeg     ← Background image (blurred)
 └── README.md                 ← This documentation file
 
+---
 
 ## 💻 Installation & Setup
 
