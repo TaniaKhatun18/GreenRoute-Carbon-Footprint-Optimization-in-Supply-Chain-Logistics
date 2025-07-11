@@ -71,9 +71,6 @@ GreenRoute is a Python‑based application designed to estimate and optimize car
 ├── Final\_Background.jpeg     ← Background image (blurred)
 └── README.md                 ← This documentation file
 
-````
-
----
 
 ## 💻 Installation & Setup
 
@@ -87,16 +84,13 @@ source venv/bin/activate  # or .\venv\Scripts\activate on Windows
 
 # Install dependencies
 pip install streamlit pandas numpy geopy folium streamlit-folium plotly matplotlib seaborn fpdf joblib
-````
-
----
 
 ## 🧠 Usage
 
 # Run the dashboard
 streamlit run app.py
 
-![Co2_Emisson_Dashboard](https://github.com/user-attachments/assets/3518f51f-5b45-417f-8fc6-ef9c77aa9b4a)
+![Co2_Emisson_Dashboard](https://github.com/user-attachments/assets/381b6f14-bb98-4c8c-b682-106a5240ffd0)
 
 
 Configure fields like Origin, Destination, Vehicle Type, Fuel Type, etc. Your results will appear live, including emissions estimate, map, suggestions, and PDF download.
@@ -107,13 +101,10 @@ Configure fields like Origin, Destination, Vehicle Type, Fuel Type, etc. Your re
 
 Emissions are calculated as:
 
-```
 CO₂ Emission = (CO₂ per km) × Distance (km)
-```
 
 where **CO₂ per km** is the output of a Random Forest model trained on historical vehicle emissions data (including factors like vehicle specs, fuel type, traffic, weather, etc.).
 
----
 
 ## ✅ Best Practices & Impact
 
